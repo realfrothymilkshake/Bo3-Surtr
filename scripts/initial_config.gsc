@@ -104,8 +104,8 @@ function load_new_session_mode_cfg(){
 
     // Commands that you want to run automatically as soon as the game starts
     // SOME OF THEM MAY NEED A FAST_RESTART TO APPLY EFFECTS
-    //world.initial_shared_commands = "Autosplit;RTA;Hud Game_Identifier;Hud Game"; // This ones are examples
-    //world.initial_zm_commands = "Toggle_DE_Easter_Egg_Ranked;Common_EE_Splits;Toggle_Hide_EE_Splits"; // This ones are examples
+    world.initial_shared_commands = "Autosplit;Hud Game_Identifier;Hud Game";
+    world.initial_zm_commands = "Toggle_DE_Easter_Egg_Ranked;Toggle_Hide_EE_Splits;Hud Ice_Craft;Hud Fire_Enter;Hud Electric_Enter;Hud Ice_Exit;Hud Secure_The_Keys_Leave;Hud Little_Lost_Girl";
 
     // Sets the sessionmode CFG to true
     world.surtr_cfg_loaded = true;
